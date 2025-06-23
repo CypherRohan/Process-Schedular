@@ -1,5 +1,4 @@
 import React from 'react';
-import { COLORS } from '../utils/constants';
 
 export default function ProcessInput({ processes, handleProcessChange, removeProcess, addProcess }) {
   return (
@@ -27,7 +26,7 @@ export default function ProcessInput({ processes, handleProcessChange, removePro
           ))}
         </tbody>
       </table>
-      <div id='d_process' className="flex w-full justify-center mt-4">
+      <div id='d_process_btn' className="flex w-full justify-center mt-4">
         <button id='add-process-btn' onClick={addProcess} className="scheduler-action-btn bg-blue-600 text-white px-4 py-1 rounded">Add Process</button>
       </div>
     </div>

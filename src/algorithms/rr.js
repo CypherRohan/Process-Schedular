@@ -26,7 +26,13 @@ export function runRoundRobin(procs, timeQuantum) {
     }
     while (!allCompleted) {
       if (queue.length === 0) {
-        const nextProcess = processes.find(p => !p.completed && p.arrivalTime > currentTime);
+        let nextProcess = null;
+        for (let j = 0; j < processes.length; j++) {
+          if (!processes[j].completed && processes[j].arrivalTime > currentTime) {
+            nextProcess = processes[j];
+            break;
+          }
+        }
         if (nextProcess) {
           gantt.push({ start: currentTime, end: nextProcess.arrivalTime, process: "Idle" });
           currentTime = nextProcess.arrivalTime;
