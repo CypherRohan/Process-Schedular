@@ -84,7 +84,7 @@ export default function LandingPage() {
         <div className="footer-section">
           <h3>About</h3>
           <p>This project is a modern, interactive CPU scheduling simulator for learning and comparison of classic algorithms. Built for students and enthusiasts.</p>
-          <p>GitHub: <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">your-repo</a></p>
+          <p>GitHub: <a href="https://github.com/CypherRohan/Process-Schedular" target="_blank" rel="noopener noreferrer">your-repo</a></p>
         </div>
         <div className="footer-section">
           <h3>Contact</h3>
