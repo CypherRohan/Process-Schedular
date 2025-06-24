@@ -93,13 +93,13 @@ export default function LandingPage() {
               <p>Rohan Saini (UI/UX & Landing Page):<br /><a href="mailto:rohanbijnor1@gmail.com">rohanbijnor1@gmail.com</a></p>
             </div>
             <div className="footer-email-cell">
-              <p>Ayush Nainwal (Backend Algorithms):<br /><a href="mailto:ayushnainwal2003@gmail.com">ayushnainwal2003@gmail.com</a></p>
+              <p>Ayush Nainwal (Backend Algorithms):<br /><a href="mailto:ayushnainwal2003@gmail.com">ayushnainwal135@gmail.com</a></p>
             </div>
             <div className="footer-email-cell">
-              <p>Harshit Rautela (Backend Components):<br /><a href="mailto:harshitrautela2003@gmail.com">harshitrautela2003@gmail.com</a></p>
+              <p>Harshit Rautela (Backend Components):<br /><a href="mailto:harshitrautela2003@gmail.com">harshitrautela3682@gmail.com</a></p>
             </div>
             <div className="footer-email-cell">
-              <p>Himanshu Negi (Backend Algorithms):<br /><a href="mailto:himanshunegi2003@gmail.com">himanshunegi2003@gmail.com</a></p>
+              <p>Himanshu Negi (Backend Algorithms):<br /><a href="mailto:himanshunegi2003@gmail.com">n.himanshunegi88@gmail.com</a></p>
             </div>
           </div>
         </div>
